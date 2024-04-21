@@ -4,7 +4,7 @@ import os
 import aiohttp
 import asyncio
 
-with open('lorum2.txt', 'w+') as f:
+with open('task_1/lorum2.txt', 'w+') as f:
     f.write('123\n')
     f.write('hello\n')
     f.seek(0)
